@@ -1,0 +1,1 @@
+Repositorio del proyecto final de Física Estadística (FC-UNAM). Contiene el código en Python para simular modelos de intercambio cinético, demostrando cómo emerge la distribución de Boltzmann-Gibbs a partir de interacciones microscópicas estocásticas.
