@@ -9,3 +9,4 @@ def reshuffling_step(E, rng):
     E[j] = (1 - eps) * s
     return E
 
+print(reshuffling_step(np.array([1.0, 2.0, 3.0]), np.random.default_rng()))
