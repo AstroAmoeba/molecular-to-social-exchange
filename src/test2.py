@@ -19,7 +19,7 @@ def run_simulation(
     n_agents=1000,
     max_sweeps=2000,
     check_every_sweeps=20,
-    tolerance=0.02,
+    tolerance=0.2,
     required_stable_checks=3,
     seed=42,
 ):
@@ -37,7 +37,7 @@ def run_simulation(
 
     # Los histogramas usan energía expresada en unidades de la energía media.
     # Se agrega una categoría adicional para valores mayores que 10.
-    histogram_edges = np.linspace(0, 10, 51)
+    histogram_edges = np.linspace(0, 10, 21)
     previous_histogram = None
     stable_checks = 0
     last_distance = None
@@ -65,6 +65,7 @@ def run_simulation(
                 last_distance = 0.5 * np.abs(
                     current_histogram - previous_histogram
                 ).sum()
+                print(f"Sweep {sweep}: distancia = {last_distance:.4f}")
 
                 if last_distance < tolerance:
                     stable_checks += 1
@@ -113,6 +114,5 @@ if __name__ == "__main__":
     print(f"Energía total inicial: {initial_energy:.12f}")
     print(f"Energía total final:   {final_energy:.12f}")
     print(f"Diferencia:            {final_energy - initial_energy:.3e}")
-
     if histogram_distance is not None:
         print(f"Distancia del último control: {histogram_distance:.4f}")

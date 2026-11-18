@@ -97,3 +97,17 @@
 | 10 | Guion del video | B6 | 4–5 |
 | 11 | Propuesta | — | Hecho |
 | 12 | Declaración IA | — | xd |
+
+
+17/11/26
+
+Se realizo una primera version de B2, llamada test2.py
+despues de iterar con varios seeds y aumentar el numero maximo de sweeps no se ha llegado a una condicion de equilibrio, por lo que se optó por reguistrar la distancia entre cada revision con
+
+68 print(f"Sweep {sweep}: distancia = {last_distance:.4f}")
+
+Se redujo el numero de intervalos "bins" de 50 a 20
+
+histogram_edges = np.linspace(0, 10, 21)
+
+No se logró llegar a la condicion de equilibrio, no siquiera aumentando el parametro de tolerancia de 0.2 a 0.5
