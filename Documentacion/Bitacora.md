@@ -20,7 +20,7 @@
    - Tono accesible, analogías, situaciones cotidianas.
    - Recursos gráficos: animaciones metafóricas y lúdicas.
    - Detalles técnicos delegados al repositorio.
-10. **Guion del video** (mencionas redacción en paralelo a la simulación).
+10. **Guion del video** (redacción en paralelo a la simulación).
 
 ### A3. Productos de gestión/declaración
 11. **Documento de propuesta** (ya entregado el 31 de octubre).
