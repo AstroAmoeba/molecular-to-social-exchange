@@ -1,3 +1,6 @@
 numpy
 ipykernel
 jupyterlab
+pygame-ce
+pymunk
+Pillow
