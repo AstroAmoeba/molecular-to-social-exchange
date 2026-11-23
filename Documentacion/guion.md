@@ -1,7 +1,9 @@
-# Guion del video
+# Guión del video
 
+Audiencia: Público en general.
 Tiempo de lectura estimado: 9 minutos. 
 
+----
 
 ¿Qué pasa si encerramos a 1000 personas en una habitación inmensa y a cada una le entregamos exactamente 1000 dólares?
 

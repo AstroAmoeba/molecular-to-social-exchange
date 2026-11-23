@@ -40,14 +40,17 @@
 - [x] Primer commit.
 
 ### B2. Simulación base (Semanas 1–2)
-- [ ] Definir sistema: $N=1000$ partículas, $E_i=1$ inicial.
-- [ ] Implementar selección aleatoria de pares.
-- [ ] Implementar regla de redistribución:
+- [x] Definir sistema: $N=1000$ partículas, $E_i=1$ inicial.
+- [x] Implementar selección aleatoria de pares.
+- [x] Implementar regla de redistribución:
   - $E'_i=\varepsilon(E_i+E_j)$
   - $E'_j=(1-\varepsilon)(E_i+E_j)$ con $\varepsilon\sim U(0,1)$.
 - [ ] Definir y documentar qué cuenta como "un paso" (colisión vs. sweep).
 - [ ] Iterar hasta distribución aproximadamente estacionaria.
-- [ ] Verificar numéricamente $E_{tot}=\sum E_i$ constante.
+- [x] Verificar numéricamente $E_{tot}=\sum E_i$ constante.
+- [ ] Lograr verificar una condicion de equilibrio. 
+
+
 
 ### B3. Análisis y figuras (Semanas 2–3)
 - [ ] Construir histograma de energías tras muchos intercambios.
@@ -111,3 +114,10 @@ Se redujo el numero de intervalos "bins" de 50 a 20
 histogram_edges = np.linspace(0, 10, 21)
 
 No se logró llegar a la condicion de equilibrio, no siquiera aumentando el parametro de tolerancia de 0.2 a 0.5
+
+23/11/26
+
+Se trabajo en el guion, escaleta y otra documentación. Quedan como pendientes por el momento:
+modificar el código para lograr el criterio de equilibrio, solicitar una revisón del guión del video. Modificar la escaleta para agregar la mayor cantidad de figuras del artículo y obtenidas por la simulacion posibles.
+
+Una vez hecho esto, se pude continuar con el montaje del video, que incluye la creación de animaciones, assets y grabación de voz en off. 
