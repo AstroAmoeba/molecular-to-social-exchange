@@ -68,7 +68,7 @@
 - [ ] (Solo si el núcleo está cerrado.)
 
 ### B6. Video (Semanas 4–5)
-- [ ] Redactar guion (en paralelo desde antes).
+- [x] Redactar guion (en paralelo desde antes).
 - [ ] Diseñar analogías y animaciones.
 - [ ] Grabar.
 - [ ] Editar.
